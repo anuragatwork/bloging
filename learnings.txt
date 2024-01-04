@@ -1,0 +1,2 @@
+instead of code repeatation for example bootsrap cdn css link and script we use partials
+to avoid that
