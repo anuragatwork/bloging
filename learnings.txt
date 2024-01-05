@@ -1,6 +1,15 @@
-instead of code repeatation for example bootsrap cdn css link and script we use partials
+1.instead of code repeatation for example bootsrap cdn css link and script we use partials
 to avoid that
 
-to use nodemon in dev dependency do npm i nodemon -dependencythen go add 
+2.to use nodemon in dev dependency do npm i nodemon -dependencythen go add 
 in scripts in pckage.json  "dev": "nodemone index.js"
 then do npm run dev in terminal
+
+3.you have to create a schema by using mongoose library
+schema contains list of objects each object(columns) is 1 property of that document(row)
+
+4. then we create a model and instance of the model is our document
+
+5.we can do encryption using library called crypto in nodemonwe use Schema.presave method
+its a middle ware inside it we write our logic
+note dont send arrow functions in presave argument
