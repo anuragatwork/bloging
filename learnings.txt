@@ -1,2 +1,6 @@
 instead of code repeatation for example bootsrap cdn css link and script we use partials
 to avoid that
+
+to use nodemon in dev dependency do npm i nodemon -dependencythen go add 
+in scripts in pckage.json  "dev": "nodemone index.js"
+then do npm run dev in terminal
